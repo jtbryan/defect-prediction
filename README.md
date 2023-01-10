@@ -1,10 +1,10 @@
-# vulnerability-prediction
+# defect-prediction
 
-Using graph-based ML for detecting vulnerable commits early in open source projects.
+Using graph-based ML for detecting defect-introducing commits early in open source projects.
 
 ## Purpose
 
-Prior research has shown that it is possible to analyze open source repositories and determine what commits have fixed a known bug, as well as what commits are likely candidates for having introduced the bug originally. This is done primarily through the **SZZ Algorithm** introduced by Jacek Sliwerski, Thomas Zimmerman, and Andreas Zeller. By utilizing [SZZ Unleashed](https://github.com/wogscpar/SZZUnleashed), a Java implementation of the SZZ algorithm, we hope to illustrate the graph of interactions between developers contributing to these open source repositories by using [Neo4j](https://neo4j.com/) and Graph-Based machine learning. In doing so, we hope to effectively improve early detection of vulnerable commits into these repositories. 
+Prior research has shown that it is possible to analyze open source repositories and determine what commits have fixed a known bug, as well as what commits are likely candidates for having introduced the bug originally. This is done primarily through the **SZZ Algorithm** introduced by Jacek Sliwerski, Thomas Zimmerman, and Andreas Zeller. By utilizing [SZZ Unleashed](https://github.com/wogscpar/SZZUnleashed), a Java implementation of the SZZ algorithm, we hope to illustrate the graph of interactions between developers contributing to these open source repositories by using [Neo4j](https://neo4j.com/) and Graph-Based machine learning. In doing so, we hope to effectively improve early detection of defect-introducing commits into these repositories. 
 
 ## Requirements
 
